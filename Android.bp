@@ -1,0 +1,13 @@
+android_app {
+    name: "ExampleApp",
+
+    srcs: ["src/**/*.java"],
+
+    dex_preopt: {
+        enabled: false,
+    },
+
+    optimize: {
+        enabled: false,
+    },
+}
